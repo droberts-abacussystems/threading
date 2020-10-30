@@ -55,4 +55,12 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>github</name>
+            <url>https://maven.pkg.github.com/droberts-abacussystems/threading</url>
+        </repository>
+    </distributionManagement>
+
 </project>
